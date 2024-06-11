@@ -1,0 +1,5 @@
+buys=int(input())
+repair=int(input())
+sells=int(input())
+g=(((sells-(buys+repair))/(buys+repair))*100)
+print("{:.2f}".format(g), "is the gain percent.")
