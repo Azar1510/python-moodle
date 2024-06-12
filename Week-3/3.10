@@ -1,0 +1,28 @@
+
+a=int(input())
+b=a%100
+c=b%12
+if(c==0):
+    print(a,"is the year of the Dragon.")
+elif(c==1):
+    print(a,"is the year of the Snake.")
+elif(c==2):
+    print(a,"is the year of the Horse.")
+elif(c==3):
+    print(a,"is the year of the Sheep.")
+elif(c==4):
+    print(a,"is the year of the Monkey.")
+elif(c==5):
+    print(a,"is the year of the Rooster.")
+elif(c==6):
+    print(a,"is the year of the Dog.")
+elif(c==7):
+    print(a,"is the year of the Pig.")
+elif(c==8):
+    print(a,"is the year of the Rat.")
+elif(c==9):
+    print(a,"is the year of the Ox.")
+elif(c==10):
+    print(a,"is the year of the Tiger.")
+elif(c==11):
+    print(a,"is the year of the Hare.")
