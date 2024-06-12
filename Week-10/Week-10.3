@@ -1,0 +1,28 @@
+n = int(input())
+
+# In
+def find_peak(arr):
+    peak_elements = []
+
+    # Check for the first element
+    if arr[0] >= arr[1]:
+        peak_elements.append(arr[0])
+
+    # Check for middle elements
+    for i in range(1, len(arr) - 1):
+        if arr[i - 1] <= arr[i] >= arr[i + 1]:
+            peak_elements.append(arr[i])
+
+    # Check for the last element
+    if arr[-1] >= arr[-2]:
+        peak_elements.append(arr[-1])
+
+    return peak_elements
+
+# Input the length of the list
+put the list of integers
+arr = list(map(int, input().split()))
+
+# Find peak elements and print the result
+peak_elements = find_peak(arr)
+print(*peak_elements)
