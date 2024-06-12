@@ -1,0 +1,20 @@
+import collections 
+def CountFrequency(arr):
+	return collections.Counter(arr)
+ 
+if __name__ == "__main__":
+	# Input size of array
+	n = int(input())
+	
+	# Input elements in array
+	arr = []
+	for _ in range(n):
+    	ele = int(input())
+    	arr.append(ele)
+	
+	# Calculate frequency of each element
+	freq = CountFrequency(arr)
+ 
+ 
+	for key, value in freq.items():
+    	print(f"{key} occurs {value} times")
