@@ -1,0 +1,20 @@
+
+def count_frequency(arr):
+    frequency = {}
+    
+    # Count the frequency of each number in the list
+    for num in arr:
+        frequency[num] = frequency.get(num, 0) + 1
+    
+    # Sort the dictionary based on keys
+    sorted_frequency = sorted(frequency.items())
+    
+    # Print the frequency of each number
+    for num, freq in sorted_frequency:
+        print(num, freq)
+
+# Input the list of numbers
+arr = list(map(int, input().split()))
+
+# Count the frequency and print the result
+count_frequency(arr)
