@@ -1,3 +1,14 @@
+Merge Sort
+Write a Python program to sort a list of elements using the merge sort algorithm.
+
+For example:
+Input	Result
+5
+6 5 4 3 8
+	3 4 5 6 8
+
+
+
 a=int(input())
 l=[]
 l.extend(input().split())
