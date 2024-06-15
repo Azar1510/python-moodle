@@ -1,3 +1,16 @@
+Coin Change
+complete function to implement coin change making problem i.e. finding the minimum
+number of coins of certain denominations that add up to given amount of money.
+The only available coins are of values 1, 2, 3, 4
+Input Format:
+Integer input from stdin.
+Output Format:
+return the minimum number of coins required to meet the given target.
+Example Input:
+16
+Output:
+4
+
 def coinChange(amount):
     # Available coin denominations
     coins = [1, 2, 3, 4]
