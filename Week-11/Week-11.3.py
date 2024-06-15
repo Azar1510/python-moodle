@@ -1,3 +1,9 @@
+Write a Python script that asks the user to enter a number within a specified range (e.g., 1 to 100). Handle exceptions for invalid inputs and out-of-range numbers.
+Input Format:
+User inputs a number.
+Output Format:
+Confirm the input or print an error message if it's invalid or out of range.
+
 def main():
     min_range = 1
     max_range = 100
