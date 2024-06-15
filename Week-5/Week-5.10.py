@@ -1,3 +1,36 @@
+
+Strictly increasing
+Write a Python program to check if a given list is strictly increasing or not. Moreover, If removing only one element from the list results in a strictly increasing list, we still consider the list true
+Input:
+n : Number of elements
+List1: List of values
+Output
+Print "True" if list is strictly increasing or decreasing else print "False"
+
+Sample Test Case
+
+Input
+
+7
+
+1
+
+2
+
+3
+
+0
+
+4
+
+5
+
+6
+
+Output 
+
+True
+
 n= int(input())
 arr = [int(input()) for i in range(n)]
 l = arr.copy()
